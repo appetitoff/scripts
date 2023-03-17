@@ -37,7 +37,6 @@ if [ -z $RECORD ]; then
 	read -p "Вставьте значение переменной RECORD: " RECORD
   exit 0
 fi
-
 echo -e "\n${GN_COL}Успешное создание перменной RECORD!\n ${lB_COL}RECORD: ${RECORD}${W_COL}\n"
 
 ####################Выполнение скрипта deploy
