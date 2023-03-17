@@ -17,7 +17,7 @@ if [ -z $WALLETADDRESS ]; then
 	read -p "Вставьте значение переменной адреса кошелька (aleo18kj46jjqk...): " WALLETADDRESS
   exit 0
 fi
-echo -e "\n${GN_COL}Успешное создание перменной времени срабатывания!\n ${lB_COL}WALLETADDRESS: ${WALLETADDRESS}${W_COL}\n"
+echo -e "\n${GN_COL}Успешное создание перменной адреса кошелька!\n ${lB_COL}WALLETADDRESS: ${WALLETADDRESS}${W_COL}\n"
 
 ####################Создание переменной приватного ключа кошелька
 
