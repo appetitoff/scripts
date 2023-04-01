@@ -43,7 +43,7 @@ echo -e "\n${GN_COL}Успешное создание перменной RECORD!
 
 cd $HOME
 mkdir demo_deploy_Leo_app && cd demo_deploy_Leo_app
-APPNAME=helloworld_"${WALLETADDRESS:4:6}"
+APPNAME=smartcontract_"${WALLETADDRESS:4:6}"
 echo -e "$APPNAME"
 leo new "${APPNAME}"
 cd "${APPNAME}" && leo run && cd -
